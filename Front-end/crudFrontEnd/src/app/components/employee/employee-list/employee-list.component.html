@@ -1,0 +1,57 @@
+<!-- main content starts -->
+<div class="container-fluid">
+    <div class="text-center mt-2 mb-5">
+        <h3>Employee Portal</h3>
+    </div>
+    <div class="container">
+        <div class="card shadow">
+            <div class="card-body">
+                <h6 class="text-center mb-5">Employees List</h6>
+                <div class="col">
+                    <!-- <button type="button" class="btn btn-sm btn-outline-primary" >Create</button> -->
+                    <a routerLink="create" class="btn btn-sm btn-outline-primary">Create</a>
+                    <table class="table table-striped">
+                        <thead>
+                          <tr>
+                            <th scope="col">Employee Id</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Email</th>
+                            <th scope="col">Phone</th>
+                            <th scope="col">Address</th>
+                            <th scope="col">Created On</th>
+                            <th scope="col">Action</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>mdo</td>
+                            <td>mdo</td>
+                            <td>mdo</td>
+                            <td>
+                                <a routerLink="update" class="mr-2"><span class="badge-info p-2 rounded-circle cursor"><i class="fa-solid fa-pen-to-square"></i></span></a>
+                                <span class="badge-danger p-2 rounded-circle cursor"><i class="fa-solid fa-trash"></i></span>
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>fat</td>
+                            <td>fat</td>
+                            <td>fat</td>
+                            <td>
+                                <a routerLink="update" class="mr-2"><span class="badge-info p-2 rounded-circle cursor"><i class="fa-solid fa-pen-to-square"></i></span></a>
+                                <span class="badge-danger p-2 rounded-circle cursor"><i class="fa-solid fa-trash"></i></span>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- main content ends -->
